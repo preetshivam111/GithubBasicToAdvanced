@@ -6,3 +6,38 @@ Git Pull : fetches commits from the master branch of the origin remote (into the
 Git Pull : It only works if the branch out is tracking an upstream branch.
 //One more Comment
 
+Git Commands
+
+-b is branch
+-a is all
+-m is message
+-u
+
+Define UserName//
+git config user.name <USerName>
+git config user.email <Email Address>
+
+
+* Git Status
+* git log -a
+* git branch
+* git branch -a
+* git add .
+* git commit -a
+* git push origin master
+* git remote add Origin "github url" adds URL
+
+//Create NEw Branch out of Any Branch
+ Pull Changes in Parent Branch , Then Do a fetch and Checkout new branch with branch name.
+* git pull
+* git fetch
+* git checkout -b  <Brannch Name>
+
+
+// Delete a branch
+first we need to switch to different branch and then delete the branch
+so 
+git checkout main
+
+git branch -d <Branchname>
+ git push origin --delete <remotebranchname
